@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Logo{
+    width: auto;
+    height: 65px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+    position: relative;
+    bottom: 45px;
+    right: 5px;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    color: #3d3d3d;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40%;
+}
+
+nav ul li a:hover{
+    background-color: #212121;
+    color: #fff;
+}
+
+.d-block{
+    height: 240px;
+}
+
+.carousel{
+    position: relative;
+    bottom: 10px;
+}
+
+.huno{
+    height: 80px;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: #212121;
+    color: #fff;
+}
+
+.hdos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+#parteTres{
+    background-color: #212121;
+}
+
+.rmpopu{
+    height: 50px;
+    line-height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.receta{
+    background-color: #fff;
+    border: 2px solid #212121;
+    border-radius: 10px;
+}
+
+.titrece{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+
+.platos{
+    height: 150px;
+    padding: 10px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+.ingrepre{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.foto{
+    text-align: center;
+}
+
+.listas{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.apartadoplatos{
+    background-color: #212121;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    color: #3d3d3d;
+    text-align: center;
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    margin: 0;
+    padding: 2px;
+    position: relative;
+    top: 5px;
+}
+
+#redes{
+    text-align: left;
+    position: relative;
+    top: 10px;
+    font-size: 10px;
+}
+
+.bn{
+    text-align: right;
+    font-size: 10px;
+    position: relative;
+    bottom: 27px;
+}
+
+#instagram{
+    position: relative;
+    right: 117px;
+    height: 15px;
+}
+
+#facebook{
+    position: relative;
+    right: 111px;
+    height: 15px;
+}
+
+#twitter{
+    position: relative;
+    right: 108px;
+    height: 21px;
+}
+
+@media only screen and (min-width:375px) {
+    #instagram, #facebook, #twitter{
+        right: 139px;
+        padding: 0px 5px;
+    }
+    .huno{
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:425px) {
+    #instagram, #facebook, #twitter{
+        right: 165px;
+        padding: 0px 5px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .d-block{height: 475px;}
+    .listas {
+        font-size: 15px;
+    }
+    .ingredientes{
+        position: relative;
+        bottom: 25px;
+        left: 25px;
+    }
+    .platos{
+        position: relative;
+        right: 20px;
+        height: 200px;
+    }
+    .hdos{font-size: 22px;}
+    .titrece{font-size: 30px;}
+    nav ul li a{
+        font-size: 75%;
+        position: relative;
+        bottom: 20px;
+        padding: 5px 20px;
+    }
+    #Logo{height: 100px;}
+    .footer{height: 100px;}
+    footer p{font-size: 12px;}
+    #redes{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .bn{
+        font-size: 15px;
+        bottom: 35px;
+    }
+    #instagram, #facebook, #twitter{
+        height: 20px;
+        right: 285px;
+        padding: 0px 5px;
+    }
+    #twitter{
+        height: 35px;
+        right: 290px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .d-block{height: 585px;}
+    .huno{
+        padding:55px;
+        line-height: 0px;
+        font-size: 30px;
+    }
+    #Logo{height: 140px;}
+    nav ul li a{
+        font-size: 100%;
+        position: relative;
+        bottom: 35px;
+        padding: 5px 20px;
+    }
+    .hdos{font-size: 30px;}
+    .rmpopu{
+        font-size: 30px;
+        height: 85px;
+        line-height: 85px;
+    }
+    .ingrepre{font-size: 25px;}
+    .listas {
+        font-size: 20px;
+    }
+    .platos{
+        position: relative;
+        right: 20px;
+        height: 270px;
+    }
+    .receta{border: 3px solid #212121;}
+    .footer{height: 135px;}
+    footer p{font-size: 16px;}
+    #redes{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .bn{
+        font-size: 20px;
+        bottom: 45px;
+    }
+    #instagram, #facebook, #twitter{
+        height: 30px;
+        right: 390px;
+        padding: 0px 10px;
+    }
+    #twitter{
+        height: 48px;
+        right: 395px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .d-block{height: 1000px;}
+    .huno{
+        padding:70px;
+        line-height: 0px;
+        font-size: 45px;
+    }
+    #Logo{height: 190px;}
+    nav ul li a{
+        font-size: 22px;
+        position: relative;
+        bottom: 60px;
+        padding: 5px 30px;
+    }
+    .hdos{font-size: 40px;}
+    .rmpopu{
+        font-size: 35px;
+        height: 85px;
+        line-height: 85px;
+    }
+    .titrece{font-size: 40px;}
+    .listas {
+        font-size: 25px;
+    }
+    .ingrepre{font-size: 30px;}
+    .platos{
+        position: relative;
+        right: 20px;
+        height: 350px;
+    }
+    .receta{border: 4px solid #212121;}
+    .footer{height: 160px;}
+    footer p{font-size: 22px;}
+    #redes{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .bn{
+        font-size: 25px;
+        bottom: 65px;
+    }
+    #instagram, #facebook, #twitter{
+        height: 40px;
+        right: 550px;
+        padding: 0px 20px;
+    }
+    #twitter{
+        height: 60px;
+        right: 555px;
+    }
+}

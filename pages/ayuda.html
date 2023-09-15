@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Recetas Chilenas/Ayuda</title>
+</head>
+<body>
+    <header>
+        <img id="Logo" src="../Multimedia/Logo.png" alt="Recetas Chilenas">
+        <nav>
+            <ul>
+                <li><a href="./ayuda.html">Ayuda</a></li>
+                <li><a href="./sugerencias.html">Sugerencias</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./platos.html">Platos</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cajita">
+            <h1>Contactate con Nosotros!</h1>
+            <p>¡Te responderemos al instante, listos para resolver tus dudas!</p>
+        
+            <form action="procesar_sugerencia.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="sugerencia">Tu Mensaje:</label>
+                <textarea id="sugerencia" name="sugerencia" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+        <div id="wsp">
+            <h2 class="huno suges">¡Tambien puedes escribirnos a nuestro wsp!</h2>
+            <h3 class="msj">Escribenos a nuestro wsp</h3>
+            <a href="https://wa.me/+56958044242"><img src="../Multimedia/logowsp.webp" alt="wathsapp"></a>
+        </div>
+    </main>
+    <footer class="footer footer3">
+        <div class="container">
+            &copy; 2023 Recetas Chilenas. Privacy
+            <h4 id="redes">Redes Sociales</h4>
+            <a target="_blank" href="https://www.instagram.com/_ben.jaa/"><img id="instagram" src="../Multimedia/i.webp" alt="instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100092522150626"><img id="facebook" src="../Multimedia/f.png" alt="facebook"></a>
+            <a target="_blank" href="https://twitter.com/9picas44506"><img id="twitter" src="../Multimedia/twt.png" alt="twitter"></a>
+            <h4 class="bn">Designed by Benjamín Norambuena</h4>
+            <h4 class="bn">Developed by Benjamín Norambuena</h4>
+        </div>
+    </footer>
+</body>
+</html>
