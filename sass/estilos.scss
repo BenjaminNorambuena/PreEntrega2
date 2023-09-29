@@ -5,37 +5,9 @@
 
 #Logo{
     width: auto;
-    height: 65px;
-}
-
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: none;
     position: relative;
-    bottom: 45px;
-    right: 5px;
-}
-
-nav ul li{
-    float: right;
-}
-
-nav ul li a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: block;
-    color: #3d3d3d;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 40%;
-}
-
-nav ul li a:hover{
-    background-color: #212121;
-    color: #fff;
+    top: 10px;
+    height: 100px;
 }
 
 .d-block{
@@ -47,9 +19,14 @@ nav ul li a:hover{
     bottom: 10px;
 }
 
+.menu{
+    position: relative;
+    bottom: 50px;
+}
+
 .huno{
     height: 80px;
-    line-height: 20px;
+    line-height: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     text-align: center;
@@ -80,6 +57,11 @@ nav ul li a:hover{
     background-color: #fff;
     border: 2px solid #212121;
     border-radius: 10px;
+}
+
+.recetasplatos{
+    width: 99.5%;
+    margin-left: 1px;
 }
 
 .titrece{
@@ -114,6 +96,89 @@ nav ul li a:hover{
 
 .apartadoplatos{
     background-color: #212121;
+}
+
+.imagen1{
+    width: 100%;
+    margin: 1px;
+    margin-bottom: 5px;
+}
+
+.imagen2{
+    width: 100%;
+    margin: 1px;
+    margin-top: 5px;
+}
+
+.sobremi p{
+    background-color: #212121;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosotros{
+    text-align: justify;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    position: relative;
+    bottom: 6px;
+    padding: 15px;
+}
+
+.t2{
+    margin-top: 13px;
+}
+
+.suges{
+    text-align: center;
+    font-size: 17px;
+    background-color: #fff;
+    height: 70px;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.form{
+    border: 2px solid #212121;
+    margin: 10px;
+}
+
+.mb-3{
+    width: 95%;
+    margin-left: 7px;
+}
+
+.form-control{
+    border: 2px solid #212121;
+}
+
+.wsps{
+    text-align: center;
+}
+
+#wsp{
+    width: 65px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+.msj{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.msjf{
+    background-color: #fff;
+    color: black;
+}
+
+.mapa{
+    width: 90%;
+    position: relative;
+    left: 16px;
+    height: 250px;
 }
 
 .footer {
@@ -170,8 +235,18 @@ footer p{
         right: 139px;
         padding: 0px 5px;
     }
+    .suges{
+        font-size: 19px;
+    }
     .huno{
         padding: 30px;
+        line-height: 20px;
+    }
+    .mb-3{
+        width: 95%;
+    }
+    .mapa{
+        left: 19px;
     }
 }
 
@@ -179,6 +254,15 @@ footer p{
     #instagram, #facebook, #twitter{
         right: 165px;
         padding: 0px 5px;
+    }
+    .suges{
+        font-size: 21px;
+    }
+    .mb-3{
+        width: 96%;
+    }
+    .mapa{
+        left: 22px;
     }
 }
 
@@ -191,22 +275,37 @@ footer p{
     .ingredientes{
         position: relative;
         bottom: 25px;
-        left: 25px;
+        right: 1px;
     }
     .platos{
         position: relative;
         right: 20px;
         height: 200px;
     }
+    .suges{
+        font-size: 23px;
+    }
     .hdos{font-size: 22px;}
     .titrece{font-size: 30px;}
-    nav ul li a{
-        font-size: 75%;
-        position: relative;
-        bottom: 20px;
-        padding: 5px 20px;
-    }
     #Logo{height: 100px;}
+    .imagen1, .imagen2{
+        position: relative;
+        top: 150px;
+    }
+    .mb-3{
+        width: 97%;
+    }
+    .form{
+        width: 70%;
+        margin-left: 120px;
+    }
+    .cajita{
+        height: 125px;
+    }
+    .mapa{
+        left: 40px;
+        height: 350px;
+    }
     .footer{height: 100px;}
     footer p{font-size: 12px;}
     #redes{
@@ -230,17 +329,21 @@ footer p{
 
 @media only screen and (min-width:1024px) {
     .d-block{height: 585px;}
+    .suges{
+        font-size: 25px;
+    }
     .huno{
         padding:55px;
         line-height: 0px;
         font-size: 30px;
     }
     #Logo{height: 140px;}
-    nav ul li a{
-        font-size: 100%;
+    .menu{
         position: relative;
-        bottom: 35px;
-        padding: 5px 20px;
+        left: 250px;
+        bottom: 70px;
+        width: 470px;
+        font-size: 20px;
     }
     .hdos{font-size: 30px;}
     .rmpopu{
@@ -258,6 +361,21 @@ footer p{
         height: 270px;
     }
     .receta{border: 3px solid #212121;}
+    .recetasplatos{width: 99.9%;}
+    .imagen1, .imagen2{
+        position: relative;
+        top: 50px;
+    }
+    .form{
+        margin-left: 150px;
+    }
+    .cajita{
+        height: 200px;
+    }
+    .mapa{
+        left: 50px;
+        height: 450px;
+    }
     .footer{height: 135px;}
     footer p{font-size: 16px;}
     #redes{
@@ -281,17 +399,21 @@ footer p{
 
 @media only screen and (min-width:1440px) {
     .d-block{height: 1000px;}
+    .suges{
+        font-size: 30px;
+    }
     .huno{
         padding:70px;
         line-height: 0px;
         font-size: 45px;
     }
     #Logo{height: 190px;}
-    nav ul li a{
-        font-size: 22px;
+    .menu{
         position: relative;
-        bottom: 60px;
-        padding: 5px 30px;
+        left: 330px;
+        bottom: 110px;
+        width: 570px;
+        font-size: 30px;
     }
     .hdos{font-size: 40px;}
     .rmpopu{
@@ -310,6 +432,34 @@ footer p{
         height: 350px;
     }
     .receta{border: 4px solid #212121;}
+    .sobremi p{
+        font-size: 20px;
+    }
+    .imagen1, .imagen2{
+        position: relative;
+        top: 13px;
+    }
+    .form{
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+    .cajita{
+        height: 250px;
+    }
+    .mb-3{
+        width: 98%;
+    }
+    .mapa{
+        margin-top: 10px;
+        left: 80px;
+        height: 600px;
+    }
+    #wsp{
+        width: 85px;
+    }
+    .msj{
+        font-size: 25px;
+    }
     .footer{height: 160px;}
     footer p{font-size: 22px;}
     #redes{
@@ -328,5 +478,15 @@ footer p{
     #twitter{
         height: 60px;
         right: 555px;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .menu{
+        position: relative;
+        left: 530px;
+        bottom: 110px;
+        width: 570px;
+        font-size: 30px;
     }
 }

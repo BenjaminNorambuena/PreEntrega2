@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Platos tipicos chilenos">
+    <meta name="keywords" content="recetas chilenas, recetario, tipico chileno, completos, empanadas de pino, chorrillana.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../sass/estilos.css">
     <title>Recetas Chilenas/Platos</title>
 </head>
 <body>
     <header>
-        <img id="Logo" src="../Multimedia/logo2.png" alt="Recetas Chilenas">
-        <nav>
-            <ul>
-                <li><a href="./ayuda.html">Ayuda</a></li>
-                <li><a href="./sugerencias.html">Sugerencias</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./platos.html">Platos</a></li>
-                <li><a href="../index.html">Inicio</a></li>
-            </ul>
+        <img id="Logo" src="../Multimedia/logo2.png" alt="logo del sitio web">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid menu">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./platos.html">Platos</a>
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./sugerencias.html">Sugerencias</a>
+                        <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="apartadoplatos">
@@ -27,7 +37,7 @@
             </div>
         </div>
         <div id="cazuela container">
-            <div class="receta row">
+            <div class="receta recetasplatos row">
                 <h3 class="titrece">Cazuela de vacuno</h3>
                 <div class="col-xs-12 col-sm-6 col-xxl-6">
                     <img class="platos" src="../Multimedia/Cazuela.jpg" alt="cazuela">
@@ -48,7 +58,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="receta row">
+            <div class="receta recetasplatos row">
                 <div class="preparacion">
                     <h4 class="ingrepre">Preparacion</h4>
                     <ol class="listas">
@@ -63,8 +73,8 @@
             </div>
         </div>
         <div id="chorrillana container">
-            <div class="receta row">
-                <h3 class="ingrepre">Chorrillana</h3>
+            <div class="receta recetasplatos row">
+                <h3 class="titrece">Chorrillana</h3>
                 <div class="col-xs-12 col-sm-6 col-xxl-6">
                     <img class="platos photo" src="../Multimedia/chorrillana.jpg" alt="choriilana">
                 </div>
@@ -80,7 +90,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="receta row">
+            <div class="receta recetasplatos row">
                 <div class="col-12 preparacion">
                     <h4 class="ingrepre">Preparacion</h4>
                     <ol class="listas">
@@ -96,8 +106,8 @@
             </div>
         </div>
         <div id="completo container">
-            <div class="receta row">
-                <h3 class="ingrepre">Completos</h3>
+            <div class="receta recetasplatos row">
+                <h3 class="titrece">Completos</h3>
                 <div class="col-xs-12 col-sm-6 col-xxl-6">
                     <img id="photo" class="platos" src="../Multimedia/completitos.jpg" alt="completos">
                 </div>
@@ -112,7 +122,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="receta row">
+            <div class="receta recetasplatos row">
                 <div class="col-12 preparacion">
                     <h4 class="ingrepre">Preparacion</h4>
                     <ol class="listas">

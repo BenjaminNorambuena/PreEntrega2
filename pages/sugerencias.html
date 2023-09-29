@@ -3,52 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="Envia tus sugerencias">
+    <meta name="keywords" content="recetas chilenas, recetario, tipico chileno, completos, empanadas de pino, chorrillana.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../sass/estilos.css">
     <title>Recetas Chilenas/Sugerencias</title>
 </head>
 <body>
     <header>
-        <img id="Logo" src="../Multimedia/Logo.png" alt="Recetas Chilenas">
-        <nav>
-            <ul>
-                <li><a href="./ayuda.html">Ayuda</a></li>
-                <li><a href="./sugerencias.html">Sugerencias</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./platos.html">Platos</a></li>
-                <li><a href="../index.html">Inicio</a></li>
-            </ul>
+        <img id="Logo" src="../Multimedia/logo2.png" alt="logo del sitio web">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid menu">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./platos.html">Platos</a>
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./sugerencias.html">Sugerencias</a>
+                        <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <div class="cajita">
-            <h1>Envía tus Sugerencias</h1>
-            <p>¡Queremos escuchar tus ideas y sugerencias para mejorar nuestro sitio!</p>
-        
-            <form action="procesar_sugerencia.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            
-                <label for="sugerencia">Tu Sugerencia:</label>
-                <textarea id="sugerencia" name="sugerencia" rows="4" required></textarea>
-
-                <button type="submit">Enviar Sugerencia</button>
-            </form>
+        <h1 class="huno">Sugerencias</h1>
+        <div class="form">
+            <div class="mb-3">
+                <h2>¡Envia tu Sugerencia!</h2>
+                <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu Nombre">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Sugerencia:</label>
+                <textarea class="cajita form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu Sugerencia" rows="3"></textarea>
+            </div>
         </div>
-        <div>
-            <h2 class="huno suges">Tu palabra siempre sera tomada en cuenta</h2>
-            <h2 class="huno suges">¡Esperamos tu sugerencia, todas son bienvenidas!</h2>
-        </div>
+        <h3 class="suges">Tambien puedes venir a visitarnos</h3>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212998.2997250683!2d-70.62983129999999!3d-33.47278795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1695935676399!5m2!1ses-419!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
-    <footer class="footer footer3">
+    <h3 class="huno msjf">Tu palabra nos importa</h3>
+    <footer class="footer">
         <div class="container">
-            &copy; 2023 Recetas Chilenas. Privacy
+            <p>&copy; 2023 Recetas Chilenas. Privacy</p>
             <h4 id="redes">Redes Sociales</h4>
-            <a target="_blank" href="https://www.instagram.com/_ben.jaa/"><img id="instagram" src="../Multimedia/i.webp" alt="instagram"></a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100092522150626"><img id="facebook" src="../Multimedia/f.png" alt="facebook"></a>
-            <a target="_blank" href="https://twitter.com/9picas44506"><img id="twitter" src="../Multimedia/twt.png" alt="twitter"></a>
-            <h4 class="bn">Designed by Benjamín Norambuena</h4>
-            <h4 class="bn">Developed by Benjamín Norambuena</h4>
+            <a target="_blank" href="https://www.instagram.com/_ben.jaa/"><img id="instagram" src="../multimedia/i.webp" alt="instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100092522150626"><img id="facebook" src="../multimedia/f.png" alt="facebook"></a>
+            <a target="_blank" href="https://twitter.com/9picas44506"><img id="twitter" src="../multimedia/twt.png" alt="twitter"></a>
+            <h4 class="bn">By Benjamín Norambuena</h4>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

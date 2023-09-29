@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="Recetas Chilenas, como se creo y quien lo creo">
+    <meta name="keywords" content="recetas chilenas, recetario, tipico chileno, completos, empanadas de pino, chorrillana.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../sass/estilos.css">
     <title>Recetas Chilenas/Nosotros</title>
 </head>
 <body>
     <header>
-        <img id="Logo" src="../Multimedia/Logo.png" alt="Recetas Chilenas">
-        <nav>
-            <ul>
-                <li><a href="./ayuda.html">Ayuda</a></li>
-                <li><a href="./sugerencias.html">Sugerencias</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./platos.html">Platos</a></li>
-                <li><a href="../index.html">Inicio</a></li>
-            </ul>
+        <img id="Logo" src="../Multimedia/logo2.png" alt="logo del sitio web">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid menu">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./platos.html">Platos</a>
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./sugerencias.html">Sugerencias</a>
+                        <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <div class="sobremi">
-            <h2 class="huno">Nuestra historia</h2>
-            <h3 class="nosotros">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempore, est praesentium tenetur ab aut incidunt ut? Fuga itaque perspiciatis veniam culpa adipisci velit aspernatur harum nesciunt officiis, atque molestiae dolorem doloribus, nulla quasi, molestias aliquid totam. Odio, itaque. Soluta quisquam harum exercitationem incidunt! Rerum aut quia sit doloremque, error quasi praesentium nulla harum odit, ratione expedita repellat ullam excepturi eum optio totam. Officia ut sit, velit quam laboriosam similique omnis repellat reprehenderit nisi ex quidem culpa vero nostrum architecto aspernatur nesciunt dignissimos iusto praesentium, dolores quis unde, in voluptatum. Consequatur assumenda ab, laborum blanditiis provident ratione iste neque nostrum.</h3>
-        </div>
-        <div>
-            <img class="imagen4" src="../Multimedia/cl.jpg" alt="bandera chilena">
-            <img class="imagen5" src="../Multimedia/stgo.jpg" alt="bandera chilena">
-        </div>
-        <div class="sobremi sobremi2">
-            <h3 class="nosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores atque nemo voluptatum sit tenetur, in dolores magnam quas, voluptates ipsa esse deleniti impedit illo hic eum autem! Blanditiis commodi consequatur cumque nisi quidem voluptate ipsa assumenda accusamus iste unde, consequuntur non consectetur minima modi ipsum recusandae. Eos, in. At ea dolore recusandae neque quidem voluptates laudantium error porro perspiciatis quisquam? Pariatur, cumque animi eos quasi earum iure eaque minima nam qui odit laboriosam aliquid nisi nihil omnis iusto. Quas, architecto blanditiis voluptatum dolores qui autem veritatis sunt illo eaque asperiores illum inventore facere totam iste dolore consequuntur neque officiis praesentium in. Deserunt sint quibusdam dolores ut neque, harum vero similique quam veniam quis id officiis vel atque hic debitis aut.</h3>
+    <div>
+        <h1 class="huno nos">Nuestra historia</h1>
+            
+        <div class="sobremi container">
+                <div class="row">   
+                    <div class="col-xs-12 col-sm-6">
+                        <p class="t1 nosotros">Hace muchos años, en el corazón de Santiago de Chile, vivía Marta, una apasionada cocinera que tenía un sueño, el cual era compartir el sabor y la tradición de la comida chilena con el mundo. Marta creía que cada plato chileno contaba una historia, una historia que debía ser preservada y compartida con las generaciones futuras.<br>Un día, mientras estaba en su cocina preparando empanadas de pino siguiendo una receta que había sido transmitida de madre a hija durante generaciones, Marta tuvo una idea brillante. Decidió que era hora de llevar su amor por la comida chilena a un nivel completamente nuevo y fundar su empresa de recetas chilenas.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <img class="imagen1" src="../Multimedia/cl.jpg" alt="bandera chilena">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <img class="imagen2" src="../Multimedia/stgo.jpg" alt="santiago de chile">
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p class="t2 nosotros">Marta comenzó su viaje con humildad, reuniendo recetas familiares, investigando platos tradicionales de las diversas regiones de Chile y experimentando con ingredientes auténticos. Invitó a amigos y familiares a probar sus creaciones y recibió elogios por su habilidad para capturar el sabor auténtico de Chile.<br>Con el tiempo, Marta compartió sus recetas en línea y comenzó a ofrecer talleres de cocina chilena a aquellos que compartían su pasión. La respuesta fue abrumadora y su reputación como una gran maestra de la cocina tipica chilena creció rapidamente.</p>
+                    </div>
+                </div>
         </div>
     </main>
-    <footer class="footer footer4">
+    <footer class="footer">
         <div class="container">
-            &copy; 2023 Recetas Chilenas. Privacy
+            <p>&copy; 2023 Recetas Chilenas. Privacy</p>
             <h4 id="redes">Redes Sociales</h4>
-            <a target="_blank" href="https://www.instagram.com/_ben.jaa/"><img id="instagram" src="../Multimedia/i.webp" alt="instagram"></a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100092522150626"><img id="facebook" src="../Multimedia/f.png" alt="facebook"></a>
-            <a target="_blank" href="https://twitter.com/9picas44506"><img id="twitter" src="../Multimedia/twt.png" alt="twitter"></a>
-            <h4 class="bn">Designed by Benjamín Norambuena</h4>
-            <h4 class="bn">Developed by Benjamín Norambuena</h4>
+            <a target="_blank" href="https://www.instagram.com/_ben.jaa/"><img id="instagram" src="../multimedia/i.webp" alt="instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100092522150626"><img id="facebook" src="../multimedia/f.png" alt="facebook"></a>
+            <a target="_blank" href="https://twitter.com/9picas44506"><img id="twitter" src="../multimedia/twt.png" alt="twitter"></a>
+            <h4 class="bn">By Benjamín Norambuena</h4>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
