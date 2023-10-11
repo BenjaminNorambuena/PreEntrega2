@@ -110,10 +110,14 @@
     margin-top: 5px;
 }
 
-.sobremi p{
-    background-color: #212121;
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.sobremi {
+
+    p {
+        background-color: #212121;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
 }
 
 .nosotros{
@@ -189,13 +193,17 @@
     text-align: center;
 }
 
-footer p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 8px;
-    margin: 0;
-    padding: 2px;
-    position: relative;
-    top: 5px;
+footer {
+    
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8px;
+        margin: 0;
+        padding: 2px;
+        position: relative;
+        top: 5px;
+    }
+
 }
 
 #redes{
@@ -307,7 +315,9 @@ footer p{
         height: 350px;
     }
     .footer{height: 100px;}
-    footer p{font-size: 12px;}
+    footer {
+        p{font-size: 12px;}
+    }
     #redes{
         font-size: 15px;
         letter-spacing: 1px;
@@ -377,7 +387,9 @@ footer p{
         height: 450px;
     }
     .footer{height: 135px;}
-    footer p{font-size: 16px;}
+    footer {
+        p{font-size: 16px;}
+    }
     #redes{
         font-size: 20px;
         letter-spacing: 1px;
@@ -461,7 +473,9 @@ footer p{
         font-size: 25px;
     }
     .footer{height: 160px;}
-    footer p{font-size: 22px;}
+    footer {
+        p{font-size: 22px;}
+    }
     #redes{
         font-size: 25px;
         letter-spacing: 1px;
